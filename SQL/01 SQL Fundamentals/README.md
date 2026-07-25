@@ -99,4 +99,4 @@ The table structures used in this section are simplified for learning purposes. 
 
 ---
 
-This section will be updated as I progress through my Data Analytics learning journey.
+*This section will be updated as I progress through my Data Analytics learning journey.*
