@@ -1,0 +1,81 @@
+                                      RETAILHUB DATABASE
+
+┌──────────────────────┐
+│      Customers       │
+├──────────────────────┤
+│ PK CustomerID        │
+│ FirstName            │
+│ LastName             │
+│ Email                │
+│ Phone                │
+│ City                 │
+│ State                │
+│ Country              │
+│ CreatedAt            │
+└──────────┬───────────┘
+           │ 1
+           │
+           │
+           │ M
+┌──────────▼───────────┐
+│        Orders        │
+├──────────────────────┤
+│ PK OrderID           │
+│ FK CustomerID        │
+│ OrderDate            │
+│ OrderStatus          │
+│ TotalAmount          │
+│ PaymentID            │
+└──────────┬───────────┘
+           │1
+           │
+           │
+           │M
+┌──────────▼───────────┐
+│     Order_Items      │
+├──────────────────────┤
+│ PK OrderItemID       │
+│ FK OrderID           │
+│ FK ProductID         │
+│ Quantity             │
+│ UnitPrice            │
+│ Discount             │
+└───────┬───────┬──────┘
+        │       │
+        │       │
+        │       │
+        │       │
+        │       │
+        │M      │M
+        │       │
+        │1      │1
+┌───────▼──────┐ ┌─────────────────────┐
+│   Products   │ │     Categories      │
+├──────────────┤ ├─────────────────────┤
+│ PK ProductID │ │ PK CategoryID       │
+│ FK CategoryID│ │ CategoryName        │
+│ ProductName  │ │ Description         │
+│ Brand        │ └─────────┬───────────┘
+│ Price        │           │1
+│ Stock        │           │
+└──────────────┘           │
+                           │M
+                           │
+                    ┌──────▼────────────┐
+                    │     Products      │
+                    └───────────────────┘
+
+
+┌──────────────────────┐
+│      Payments        │
+├──────────────────────┤
+│ PK PaymentID         │
+│ PaymentMethod        │
+│ PaymentStatus        │
+│ PaymentDate          │
+└──────────┬───────────┘
+           │1
+           │
+           │
+           │M
+       Orders
