@@ -1,186 +1,307 @@
-# Interview Questions
+# 🎯 SQL Interview Preparation
 
-## Overview
+Master SQL interview questions asked by top technology companies, consulting firms, and product-based organizations.
 
-This section is dedicated to SQL interview preparation for Data Analyst, Business Analyst, Business Intelligence, Analytics Engineer, and Software Engineering roles. It contains carefully selected interview questions ranging from beginner to advanced levels, along with optimized SQL solutions and detailed explanations.
-
-The questions are organized by difficulty and company type to help you prepare systematically for technical interviews.
+This section is designed to help you prepare for SQL interviews by solving real interview questions, understanding business scenarios, and learning multiple approaches to solving SQL problems.
 
 ---
 
-## Learning Objectives
+# 📚 Contents
+
+```text
+11 SQL Interview Preparation
+│
+├── README.md
+│
+├── Easy
+│
+├── Medium
+│
+├── Hard
+│
+├── FAANG
+│
+├── Consulting Companies
+│
+├── Product Companies
+│
+└── Frequently Asked Questions.md
+```
+
+---
+
+# 🎯 Objectives
 
 After completing this section, you will be able to:
 
-- Solve common SQL interview questions
-- Improve SQL problem-solving skills
-- Apply multiple SQL concepts in a single query
-- Write optimized and readable SQL solutions
-- Understand different approaches to solving the same problem
-- Prepare confidently for technical interviews
+- Solve SQL interview questions confidently.
+- Understand the business logic behind SQL problems.
+- Write optimized SQL queries.
+- Explain your solution during technical interviews.
+- Recognize common SQL interview patterns.
+- Prepare for Data Analyst, Business Analyst, BI Analyst, and SQL Developer interviews.
 
 ---
 
-## Contents
+# 📖 Learning Path
 
-| No. | Section |
-|-----|---------|
-| 01 | Easy SQL Interview Questions |
-| 02 | Medium SQL Interview Questions |
-| 03 | Hard SQL Interview Questions |
-| 04 | FAANG SQL Interview Questions |
-| 05 | Consulting Company SQL Questions |
-| 06 | Product Company SQL Questions |
-| 07 | Frequently Asked SQL Theory Questions |
+Follow this order:
+
+```text
+Easy
+   ↓
+Medium
+   ↓
+Hard
+   ↓
+Company Specific Preparation
+   ↓
+Frequently Asked Questions
+```
 
 ---
 
-## Question Categories
+# 📂 Difficulty Levels
 
-### Easy
+## 🟢 Easy
 
-Focus areas:
+Focuses on:
 
-- Basic `SELECT` statements
-- Filtering and Sorting
+- SELECT
+- WHERE
+- ORDER BY
+- LIMIT
+- DISTINCT
+- LIKE
+- IN
+- BETWEEN
+- NULL Handling
+- Basic Joins
 - Aggregate Functions
-- Simple Joins
-- Basic `GROUP BY`
+
+Suitable for beginners and entry-level interview preparation.
 
 ---
 
-### Medium
+## 🟡 Medium
 
-Focus areas:
+Focuses on:
 
-- Complex Joins
-- Subqueries
-- Common Table Expressions (CTEs)
-- Window Functions
+- GROUP BY
+- HAVING
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- SELF JOIN
 - CASE Statements
-- Data Aggregation
+- Subqueries
+- Date Functions
+- Common Business Problems
+
+Suitable for most Data Analyst interviews.
 
 ---
 
-### Hard
+## 🔴 Hard
 
-Focus areas:
+Focuses on:
 
-- Advanced Window Functions
-- Recursive CTEs
-- Complex Business Logic
-- Query Optimization
-- Multi-step Analytical Problems
-
----
-
-### FAANG
-
-Topics commonly asked by large technology companies:
-
-- Ranking Problems
-- Session Analysis
-- User Activity Analysis
-- Revenue Calculations
+- Window Functions
+- Common Table Expressions (CTEs)
+- Recursive Queries
 - Running Totals
-- Retention Analysis
-- Advanced SQL Logic
+- Ranking
+- Advanced Aggregations
+- Complex Business Logic
+- Optimization
+
+Frequently asked in senior-level and product-based company interviews.
 
 ---
 
-### Consulting Companies
+# 🏢 Company Preparation
 
-Typical SQL topics for consulting firms include:
+This repository includes interview preparation guides for different types of companies.
 
-- Sales Analysis
-- Customer Segmentation
-- KPI Reporting
-- Dashboard Metrics
-- Business Performance Analysis
-- Data Cleaning
+## FAANG
 
----
+- Amazon
+- Google
+- Meta
+- Microsoft
+- Apple
+- Netflix
 
-### Product Companies
+Topics include:
 
-Common SQL interview topics include:
-
-- Database Design
-- Performance Optimization
-- Window Functions
-- Large Dataset Analysis
-- Query Optimization
-- Business Reporting
+- Frequently asked SQL questions
+- Interview patterns
+- Preparation strategies
+- Important concepts
 
 ---
 
-## Standard Question Format
+## Consulting Companies
 
-Every interview question follows a consistent structure:
+- Deloitte
+- Accenture
+- EY
+- PwC
+- KPMG
 
-| Section | Description |
-|----------|-------------|
-| Question | Interview problem statement |
-| Business Scenario | Real-world context |
-| Difficulty | Easy / Medium / Hard |
-| Concepts Covered | SQL topics involved |
-| SQL Solution | Optimized solution |
-| Explanation | Step-by-step breakdown |
-| Best Practices | Tips for writing efficient SQL |
+Focus areas include:
 
----
-
-## Skills Covered
-
-By completing this section, you will gain hands-on experience with:
-
-- SQL Fundamentals
-- Filtering & Sorting
-- Aggregate Functions
-- Joins
-- Subqueries
-- Common Table Expressions (CTEs)
-- Window Functions
-- CASE Statements
-- Database Design
-- Query Optimization
+- SQL
+- Excel
+- Power BI
 - Business Analytics
+- Reporting
 
 ---
 
-## Recommended Practice Order
+## Product Companies
 
-1. Easy SQL Questions
-2. Medium SQL Questions
-3. Hard SQL Questions
-4. Business Case Studies
-5. FAANG Questions
-6. Consulting Company Questions
-7. Product Company Questions
+- Uber
+- Airbnb
+- Spotify
+- LinkedIn
+- Atlassian
 
----
+Focus areas include:
 
-## Prerequisites
-
-Before starting this section, you should be familiar with all previous sections of this repository, including:
-
-- SQL Fundamentals
-- Filtering & Sorting
-- Aggregate Functions
-- Joins
-- Subqueries
-- Common Table Expressions (CTEs)
+- Product Analytics
 - Window Functions
-- CASE Statements
-- Database Design
-- Business Case Studies
+- User Behavior Analysis
+- KPI Calculations
+- Advanced SQL
 
 ---
 
-## Note
+# 📌 Every Solution Includes
 
-SQL interviews assess more than syntax—they evaluate your ability to analyze business problems, write efficient queries, optimize performance, and clearly explain your reasoning. Consistent practice across different difficulty levels is the key to becoming interview-ready.
+Each SQL solution follows a structured format:
+
+- Problem Statement
+- Business Scenario
+- Concepts Tested
+- SQL Solution
+- Explanation
+- Alternative Approach (where applicable)
+- Time Complexity
+- Space Complexity
+- Interview Tips
+- Key Takeaways
 
 ---
 
-*This section will be updated as I progress through my Data Analytics learning journey.*
+# 💼 Interview Tips
+
+✔ Read the question carefully before writing SQL.
+
+✔ Clarify assumptions if requirements are ambiguous.
+
+✔ Start with a simple solution before optimizing.
+
+✔ Use meaningful aliases.
+
+✔ Handle NULL values properly.
+
+✔ Consider edge cases.
+
+✔ Explain your thought process during interviews.
+
+✔ Validate your output using sample data.
+
+---
+
+# 🚀 Recommended Practice Strategy
+
+### Week 1
+
+Complete all Easy questions.
+
+---
+
+### Week 2
+
+Solve all Medium questions.
+
+---
+
+### Week 3
+
+Practice Hard questions.
+
+---
+
+### Week 4
+
+Study company-specific interview guides.
+
+---
+
+### Week 5
+
+Revise using the FAQ and re-solve previously completed problems without looking at solutions.
+
+---
+
+# 🎯 Target Roles
+
+This section is useful for preparing for roles such as:
+
+- Data Analyst
+- Business Analyst
+- Business Intelligence Analyst
+- SQL Developer
+- Analytics Engineer
+- Reporting Analyst
+- Product Analyst
+
+---
+
+# 📚 Recommended Resources
+
+- LeetCode SQL
+- StrataScratch
+- DataLemur
+- HackerRank SQL
+- Mode SQL Tutorial
+
+---
+
+# ⭐ Contribution
+
+Found a better SQL solution?
+
+Feel free to improve query performance, readability, or provide an alternative approach.
+
+---
+
+# 📈 Progress Tracker
+
+```text
+SQL Interview Preparation
+
+README                  ⬜
+
+Easy                     ⬜ 22 Questions
+
+Medium                   ⬜ 23 Questions
+
+Hard                     ⬜ 15 Questions
+
+FAANG Guides             ⬜
+
+Consulting Guides        ⬜
+
+Product Company Guides   ⬜
+
+Frequently Asked Questions ⬜
+```
+
+---
+
+# 🏁 Final Goal
+
+By completing this section, you will have solved more than **60 real SQL interview problems**, explored company-specific interview patterns, and built a strong foundation for technical interviews in analytics, business intelligence, and SQL-focused roles.
